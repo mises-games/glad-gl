@@ -20,6 +20,19 @@ project "Glad_GL"
     
     filter "system:windows"
         systemversion "latest"
+        files
+        {
+            "include/glad/wgl.h",
+            "src/wgl.c"
+        }
+    
+    filter "system:linux"
+        systemversion "latest"
+        files
+        {
+            "include/glad/glx.h",
+            "src/glx.c"
+        }
 
     filter "configurations:Debug"
         runtime "Debug"
