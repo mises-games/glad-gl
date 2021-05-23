@@ -196,50 +196,6 @@ typedef void (*GLADpostcallback)(void *ret, const char *name, GLADapiproc apipro
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-struct _GPU_DEVICE {
-    DWORD  cb;
-    CHAR   DeviceName[32];
-    CHAR   DeviceString[128];
-    DWORD  Flags;
-    RECT   rcVirtualScreen;
-};
-
-DECLARE_HANDLE(HPBUFFERARB);
-
-DECLARE_HANDLE(HPBUFFEREXT);
-
-DECLARE_HANDLE(HVIDEOOUTPUTDEVICENV);
-
-DECLARE_HANDLE(HPVIDEODEV);
-
-DECLARE_HANDLE(HPGPUNV);
-
-DECLARE_HANDLE(HGPUNV);
-
-DECLARE_HANDLE(HVIDEOINPUTDEVICENV);
-
 typedef struct _GPU_DEVICE GPU_DEVICE;
 
 typedef struct _GPU_DEVICE *PGPU_DEVICE;
