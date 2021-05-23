@@ -23,6 +23,7 @@ project "Glad_GL"
         files
         {
             "include/glad/wgl.h",
+            "include/glad/wglext.h",
             "src/wgl.c"
         }
     

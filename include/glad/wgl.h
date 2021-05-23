@@ -30,6 +30,7 @@
 
 #include <windows.h>
 #include <glad/gl.h>
+#include <glad/wglext.h>
 
 #define GLAD_WGL
 #define GLAD_OPTION_WGL_LOADER
